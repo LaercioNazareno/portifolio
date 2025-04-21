@@ -1,9 +1,13 @@
+import { LanguageProvider } from "./linguagem/ContextoLinguagem";
+import PaginaBase from "./paginas/Base.pagina";
 
 function App() {
   return (
-    <div className="App">
-      ok
-    </div>
+    <LanguageProvider>
+      <div className="App">
+        <PaginaBase />
+      </div>
+    </LanguageProvider>
   );
 }
 

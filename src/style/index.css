@@ -1,0 +1,15 @@
+:root {
+    --color-primary: #003366;
+    --color-secondary: #3FA9F5;
+    --color-background: #E6EEF5;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--color-primary);
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+}

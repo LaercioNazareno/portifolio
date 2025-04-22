@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    height: 100vh;
+    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    padding: 1rem;
+    align-items: start;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar > *{
+    margin: 2%;
+}
+
+.sidebar.closed {
+    display: none;
+}

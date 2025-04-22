@@ -13,3 +13,17 @@ body {
 p {
     text-align: justify;
 }
+
+button{
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin: 5%;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}

@@ -3,6 +3,7 @@ import Header from "../componentes/Header"
 import Nav from "../componentes/Nav"
 import '../style/paginas/basepagina.css'
 import About from './Sobre.pagina';
+import Projetos from './Projetos.pagina';
 
 const PaginaBase = () => {
     return (
@@ -14,11 +15,11 @@ const PaginaBase = () => {
                 </div>
                 <main>
                     <Routes>
-                        <Route path="/" element={<About/>} />
-                        <Route path="/projetos" element={<>projetos</>} />
+                        <Route path="/" element={<About />} />
+                        <Route path="/projetos" element={<Projetos />} />
                         <Route path="/analise" element={<>analise</>} />
                         <Route path="/artigos" element={<>artigos</>} />
-                        <Route path="/sobre" element={<About/>} />
+                        <Route path="/sobre" element={<About />} />
                     </Routes>
                 </main>
             </Router>
